@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../assets/5291450.jpg");
+  font-family: Verdana, sans-serif;
+  color: #414141;
+}
+
+body .container {
+  width: 1024px;
+  border-radius: 10px;
+  padding: 50px;
+  text-align: center;
+  margin: 50px auto;
+  margin-left: 9%;
+  margin-right: 9%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 16, 0.3);
+          box-shadow: 0px 0px 50px rgba(0, 0, 16, 0.3);
+}
+
+@media only screen and (min-width: 360px) {
+  body .container {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  body .container {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body .container {
+    width: 80%;
+  }
+}
+
+body .container h2 {
+  color: #3936da;
+  font-size: 100%;
+  text-align: left;
+  margin: 10px;
+}
+
+@media only screen and (min-width: 360px) {
+  body .container h2 {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  body .container h2 {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body .container h2 {
+    font-size: 140%;
+  }
+}
+
+body .container .box01 {
+  font-weight: bold;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px auto;
+  background: #fff;
+  font-size: 30px;
+  border: #000 2px solid;
+}
+
+body .container .box02 {
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px auto;
+  background: #fff;
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .box03 {
+  width: 32%;
+  border-radius: 10px;
+  margin: 10px auto;
+  background: #fff;
+  font-size: 12px;
+  word-break: break-all;
+}
+
+body .container .box04GC {
+  height: 300px;
+  width: 98%;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px auto;
+  background: #fff;
+  border: #000 2px solid;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+@media only screen and (min-width: 360px) {
+  body .container .box04GC {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  body .container .box04GC {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body .container .box04GC {
+    height: 450px;
+  }
+}
+
+body .container .box04MC {
+  height: 200px;
+  width: 98%;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px auto;
+  background: #fff;
+  border: #000 2px solid;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+@media only screen and (min-width: 360px) {
+  body .container .box04MC {
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  body .container .box04MC {
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body .container .box04MC {
+    height: 350px;
+  }
+}
+
+body .container .box04PC {
+  height: 100px;
+  width: 98%;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px auto;
+  background: #fff;
+  border: #000 2px solid;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+@media only screen and (min-width: 360px) {
+  body .container .box04PC {
+    height: 150px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  body .container .box04PC {
+    height: 150px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body .container .box04PC {
+    height: 250px;
+  }
+}
+
+body .container .box04GL {
+  height: 300px;
+  width: 83%;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px auto;
+  background: #fff;
+  border: #000 2px solid;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+@media only screen and (min-width: 360px) {
+  body .container .box04GL {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  body .container .box04GL {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body .container .box04GL {
+    height: 450px;
+  }
+}
+
+body .container .box04ML {
+  height: 200px;
+  width: 83%;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px auto;
+  background: #fff;
+  border: #000 2px solid;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+@media only screen and (min-width: 360px) {
+  body .container .box04ML {
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  body .container .box04ML {
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body .container .box04ML {
+    height: 350px;
+  }
+}
+
+body .container .box04PL {
+  height: 100px;
+  width: 83%;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px auto;
+  background: #fff;
+  border: #000 2px solid;
+  font-size: 14px;
+  word-break: break-all;
+  text-align: right;
+}
+
+@media only screen and (min-width: 360px) {
+  body .container .box04PL {
+    height: 150px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  body .container .box04PL {
+    height: 150px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body .container .box04PL {
+    height: 250px;
+  }
+}
+
+body .container .box05 {
+  width: 75%;
+  word-break: break-all;
+}
+
+body .container img {
+  width: 20%;
+  float: right;
+  margin-top: -35px;
+  margin-right: 1%;
+}
+
+body .container textarea {
+  width: 80%;
+  height: 50%;
+  font-size: 24px;
+  border: 0;
+  padding: 5%;
+  margin-bottom: 5%;
+  resize: none;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 360px) {
+  body .container textarea {
+    font-size: 18px;
+    height: 50%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  body .container textarea {
+    font-size: 16px;
+    height: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body .container textarea {
+    font-size: 22px;
+    height: 39%;
+  }
+}
+
+body .container .textareaP {
+  width: 90%;
+  height: 20%;
+  border: 0;
+  padding: 5%;
+  margin-bottom: 10%;
+  resize: none;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 360px) {
+  body .container .textareaP {
+    height: 20%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  body .container .textareaP {
+    height: 20%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body .container .textareaP {
+    height: 10%;
+  }
+}
+
+body #footer {
+  -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 16, 0.3);
+          box-shadow: 0px 0px 50px rgba(0, 0, 16, 0.3);
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  background-color: #11202e;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #footer .footerBox {
+  width: 30%;
+  margin: 1px auto;
+  font-size: 12px;
+  word-break: break-all;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 12px;
+  color: #fff;
+}
+
+body #footer .imgBox {
+  width: 20%;
+}
+/*# sourceMappingURL=main.css.map */

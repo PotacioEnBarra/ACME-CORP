@@ -1,0 +1,258 @@
+@import "mediaScreens";
+
+@mixin heightBoxesSides($heightb)  {
+    height: $heightb;
+    width: 83%;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px auto;
+    background: $fourth-color;
+    border: $secondary-color 2px solid;
+    font-size: 14px;
+    word-break: break-all;
+}
+@mixin heightBoxesCenter($heightb)  {
+    height: $heightb;
+    width: 98%;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px auto;
+    background: $fourth-color;
+    border: $secondary-color 2px solid;
+    font-size: 14px;
+    word-break: break-all;
+}
+
+$primary-color: #3936da;
+$secondary-color: #000;
+$third-color: #414141;
+$fourth-color: #fff;
+$footer-color: #11202e;
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-image: url("../assets/5291450.jpg");
+    font-family: Verdana, sans-serif;
+    color: $third-color;
+    .container {
+        width: 1024px;
+        @include small{
+            width: 70%;
+        }
+        @include tablet{
+            width: 70%;
+        }
+        @include large{
+            width: 80%;
+        }
+        border-radius: 10px;
+        padding: 50px;
+        text-align: center;
+        margin: 50px auto;
+        margin-left: 9%;
+        margin-right: 9%;
+        align-items: center;
+        background: $fourth-color;
+        box-shadow: 0px 0px 50px rgba($color: #000010, $alpha: 0.3);
+        h2{
+            color: $primary-color;
+            font-size: 100%;
+            @include small{
+                font-size: 80%;
+            }
+            @include tablet{
+                font-size: 90%;
+            }
+            @include large{
+                font-size: 140%;
+            }
+            text-align: left;
+            margin: 10px;
+        }
+        .box01{
+            font-weight: bold;
+            width: 100%;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px auto;
+            background: $fourth-color;
+            font-size: 30px;
+            border: $secondary-color 2px solid;
+        }
+        .box02{
+            width: 100%;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px auto;
+            background: $fourth-color;
+            font-size: 30px;
+            display: flex;
+
+        }
+
+        .box03{
+            width: 32%;
+            border-radius: 10px;
+            margin: 10px auto;
+            background: $fourth-color;
+            font-size: 12px;
+            word-break: break-all;
+        }
+        
+        .box04GC{
+            @include heightBoxesCenter(300px);
+            @include small{
+                height: 350px;
+            }@include tablet{
+                height: 350px;
+            }
+            @include large{
+                height: 450px;
+            }
+            
+        }
+        .box04MC{
+            @include heightBoxesCenter(200px);
+            @include small{
+                height: 250px;
+            }
+            @include tablet{
+                height: 250px;
+            }
+            @include large{
+                height: 350px;
+            }
+        }
+        .box04PC{
+            @include heightBoxesCenter(100px);
+            @include small{
+                height: 150px;
+            }
+            @include tablet{
+                height: 150px;
+            }
+            @include large{
+                height: 250px;
+            }
+        }
+        .box04GL{
+            @include heightBoxesSides(300px);
+            @include small{
+                height: 350px;
+            }@include tablet{
+                height: 350px;
+            }
+            @include large{
+                height: 450px;
+            }
+        }
+        .box04ML{
+            @include heightBoxesSides(200px);
+            @include small{
+                height: 250px;
+            }
+            @include tablet{
+                height: 250px;
+            }
+            @include large{
+                height: 350px;
+            }
+        }
+        .box04PL{
+            @include heightBoxesSides(100px);
+            text-align: right;
+            @include small{
+                height: 150px;
+            }
+            @include tablet{
+                height: 150px;
+            }
+            @include large{
+                height: 250px;
+            }
+        }
+        .box05{
+            width: 75%;
+            word-break: break-all;
+        }
+        img{
+            width: 20%;
+            float: right;
+            margin-top: -35px;
+            margin-right: 1%;
+
+        }
+        
+        textarea{
+            width: 80%;
+            height: 50%;
+            font-size: 24px;
+            @include small{
+                font-size: 18px;
+                height: 50%;
+            }
+            @include tablet{
+                font-size: 16px;
+                height: 50%;
+
+            }
+            @include large{
+                font-size: 22px;
+                height: 39%;
+            }
+            border: 0;
+            padding: 5%;
+            margin-bottom: 5%;
+            resize: none;
+            overflow: hidden;
+        }
+        .textareaP{
+            width: 90%;
+            height: 20%;
+            @include small{
+                height: 20%;
+            }
+            @include tablet{
+                height: 20%;
+            }
+            @include large{
+                height: 10%;
+            }
+            border: 0;
+            padding: 5%;
+            margin-bottom: 10%;
+            resize: none;
+            overflow: hidden;
+        }
+    }
+    //Footer
+#footer{
+    box-shadow: 0px 0px 50px rgba($color: #000010, $alpha: 0.3);
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    background-color: $footer-color;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+.footerBox{
+    width: 30%;
+            margin: 1px auto;
+            font-size: 12px;
+            word-break: break-all;
+            text-align: center;
+            padding-top: 50px;
+            font-size: 12px;
+            color: $fourth-color;
+}
+.imgBox{
+    width: 20%;
+}
+}
+}

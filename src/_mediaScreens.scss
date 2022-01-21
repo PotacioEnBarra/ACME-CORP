@@ -1,0 +1,23 @@
+
+@mixin small {
+    @media only screen and (min-width: 360px){
+     @content;
+    }
+}
+
+@mixin tablet {
+    @media only screen and (min-width: 769px){
+     @content;
+    }
+}
+
+@mixin large {
+    @media only screen and (min-width: 1024px){
+     @content;
+    }
+}
+@mixin largePlus {
+    @media only screen and (min-width: 2700px){
+     @content;
+    }
+}
