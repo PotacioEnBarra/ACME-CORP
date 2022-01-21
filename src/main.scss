@@ -1,0 +1,133 @@
+
+@mixin heightBoxesSides($heightb)  {
+    height: $heightb;
+    width: 83%;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px auto;
+    background: $fourth-color;
+    border: $secondary-color 2px solid;
+    font-size: 14px;
+    word-break: break-all;
+}
+@mixin heightBoxesCenter($heightb)  {
+    height: $heightb;
+    width: 98%;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px auto;
+    background: $fourth-color;
+    border: $secondary-color 2px solid;
+    font-size: 14px;
+    word-break: break-all;
+}
+
+$primary-color: #3936da;
+$secondary-color: #000;
+$third-color: #414141;
+$fourth-color: #fff;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: $third-color;
+    font-family: Verdana, sans-serif;
+    color: $third-color;
+    .container {
+        width: 1024px;
+        border-radius: 10px;
+        padding: 50px;
+        text-align: center;
+        margin: 50px auto;
+        align-items: center;
+        background: $fourth-color;
+        box-shadow: 0px 0px 50px rgba($color: #000000, $alpha: 0.1);
+        h2{
+            color: $primary-color;
+            font-size: 12px;
+            text-align: left;
+            margin: 10px;
+        }
+        a{
+            color: $secondary-color;
+            font-size: 40px;
+        }
+        .box01{
+            
+            width: 100%;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px auto;
+            background: $fourth-color;
+            font-size: 30px;
+            border: $secondary-color 2px solid;
+        }
+        .box02{
+            width: 100%;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px auto;
+            background: $fourth-color;
+            font-size: 30px;
+            display: flex;
+
+        }
+
+        .box03{
+            width: 32%;
+            border-radius: 10px;
+            margin: 10px auto;
+            background: $fourth-color;
+            font-size: 12px;
+            word-break: break-all;
+        }
+        .box04GL{
+            @include heightBoxesSides(300px);
+        
+        }
+        .box04GC{
+            @include heightBoxesCenter(300px);
+        }
+        .box04MC{
+            @include heightBoxesCenter(200px);
+        }
+        .box04ML{
+            @include heightBoxesSides(200px);
+        }
+        .box04PL{
+            @include heightBoxesSides(100px);
+            text-align: right;
+        }.box04PC{
+            @include heightBoxesCenter(100px);
+        }
+        img{
+            width: 50px;
+            float: right;
+            margin-top: -10%;
+            margin-right: 1%;
+        }
+        
+        textarea{
+            width: 90%;
+            height: 60%;
+            border: 0;
+            padding: 5%;
+            margin-bottom: 10%;
+            resize: none;
+            overflow: hidden;
+        }
+        .textareaP{
+            width: 90%;
+            height: 20%;
+            border: 0;
+            padding: 5%;
+            margin-bottom: 10%;
+            resize: none;
+            overflow: hidden;
+        }
+    }
+
+}
