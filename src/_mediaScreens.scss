@@ -1,6 +1,6 @@
-// Pantallas extra anchas
+
 @mixin small {
-    @media only screen and (min-width: 600px){
+    @media only screen and (min-width: 360px){
      @content;
     }
 }
@@ -13,6 +13,11 @@
 
 @mixin large {
     @media only screen and (min-width: 1024px){
+     @content;
+    }
+}
+@mixin largePlus {
+    @media only screen and (min-width: 2700px){
      @content;
     }
 }
