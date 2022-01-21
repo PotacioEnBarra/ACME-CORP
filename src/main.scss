@@ -1,3 +1,4 @@
+@import "mediaScreens";
 
 @mixin heightBoxesSides($heightb)  {
     height: $heightb;
@@ -38,6 +39,15 @@ body {
     color: $third-color;
     .container {
         width: 1024px;
+        @include small{
+            width: 70%;
+        }
+        @include tablet{
+            width: 70%;
+        }
+        @include large{
+            width: 70%;
+        }
         border-radius: 10px;
         padding: 50px;
         text-align: center;
@@ -48,6 +58,15 @@ body {
         h2{
             color: $primary-color;
             font-size: 12px;
+            @include small{
+                font-size: 140%;
+            }
+            @include tablet{
+                font-size: 90%;
+            }
+            @include large{
+                font-size: 90%;
+            }
             text-align: left;
             margin: 10px;
         }
@@ -86,22 +105,74 @@ body {
         }
         .box04GL{
             @include heightBoxesSides(300px);
-        
+            @include small{
+                height: 350px;
+            }@include tablet{
+                height: 350px;
+            }
+            @include large{
+                height: 350px;
+            }
         }
         .box04GC{
             @include heightBoxesCenter(300px);
+            @include small{
+                height: 350px;
+            }@include tablet{
+                height: 350px;
+            }
+            @include large{
+                height: 350px;
+            }
+            
         }
         .box04MC{
             @include heightBoxesCenter(200px);
+            @include small{
+                height: 250px;
+            }
+            @include tablet{
+                height: 250px;
+            }
+            @include large{
+                height: 250px;
+            }
         }
         .box04ML{
             @include heightBoxesSides(200px);
+            @include small{
+                height: 250px;
+            }
+            @include tablet{
+                height: 250px;
+            }
+            @include large{
+                height: 250px;
+            }
         }
         .box04PL{
             @include heightBoxesSides(100px);
             text-align: right;
+            @include small{
+                height: 150px;
+            }
+            @include tablet{
+                height: 150px;
+            }
+            @include large{
+                height: 150px;
+            }
         }.box04PC{
             @include heightBoxesCenter(100px);
+            @include small{
+                height: 150px;
+            }
+            @include tablet{
+                height: 150px;
+            }
+            @include large{
+                height: 150px;
+            }
         }
         img{
             width: 50px;
@@ -112,7 +183,17 @@ body {
         
         textarea{
             width: 90%;
-            height: 60%;
+            font-size: 14px;
+            @include small{
+                font-size: 24px;
+            }
+            @include tablet{
+                font-size: 12px;
+            }
+            @include large{
+                font-size: 24px;
+            }
+            height: 50%;
             border: 0;
             padding: 5%;
             margin-bottom: 10%;

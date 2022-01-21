@@ -1,0 +1,18 @@
+// Pantallas extra anchas
+@mixin small {
+    @media only screen and (min-width: 600px){
+     @content;
+    }
+}
+
+@mixin tablet {
+    @media only screen and (min-width: 769px){
+     @content;
+    }
+}
+
+@mixin large {
+    @media only screen and (min-width: 1024px){
+     @content;
+    }
+}
